@@ -26,7 +26,8 @@ header {
     text-align: center;
     color: var(--cor2);
     padding-top: 20px;
-    background-image: linear-gradient( to bottom, var(--cor5), var(--cor3));
+    background-image: url('../imagens/banner.png');
+    background-position: top center
     padding: 50px;
 }
 
@@ -43,6 +44,7 @@ header p {
     font-size: 1.5em;
     max-width: 100px;
     display: inline;
+    padding-bottom: 30px;
 }
 
 nav {
