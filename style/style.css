@@ -7,6 +7,7 @@
     --cor3:#4A5D75;
     --cor4:#3C424B;
     --cor5:#2B2E33;
+    --cor6:#ffffff;
 
     --fonte-padrao: Arial, Verdana, sans-serif;
     --fonte-destaque: 'Bebas Neue', 'cursive';
@@ -18,7 +19,7 @@
 }
 
 body {
-    background-color: var(--cor4);
+    background: var(--cor5);
     font-family: var(--fonte-padrao);
 }
 
@@ -26,16 +27,21 @@ header {
     text-align: center;
     color: var(--cor2);
     padding-top: 20px;
-    background-image: url('../imagens/banner.png');
-    background-position: top center
-    padding: 50px;
+    background-color: var(--cor2);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+
+
 }
 
 header > h1 {
     padding-bottom: 30px;
-    font-weight: normal;
-    text-shadow: 3px 3px 7px rgba(0, 0, 0, 0.473);
+    font-weight: bolder;
+    text-shadow: 3px 3px 6px rgb(0, 0, 0);
     font-size: 3em;
+    color: var(--cor6);
+    
 
 }
 
@@ -68,18 +74,58 @@ main {
     min-width: 300px;
     max-width: 1000px;
     margin: auto;
+    padding-top: 20px;
     padding: 10px;
-    background-color: white;
-    border-radius: 0px 0px 10px 10px;
+    background-color: var(--cor6);
+    border-radius: 10px;
 }
 
-main h1 {
+main h2 {
     background-image: linear-gradient(to right, var(--cor5), var(--cor4),white);
-    color: var(--cor2);
+    color: white;
     padding: 5px;
     font-family: var(--fonte-destaque);
-    font-style: italic;
-    
-
 }
 
+p  {
+    padding: 10px;
+    padding-top: 20px;
+    line-height: 1.3;
+    text-align: justify;
+    text-indent: 20px;
+    font-size: 1.2em;
+    font-family: var(--fonte-padrao);
+}
+
+ul {
+    font-family: var(--fonte-padrao);
+    font-size: 1.1em;
+    line-height: 1.3;
+    list-style-type: square;
+    padding-left: 30px;
+   
+}
+
+p > a, li > a {
+    text-decoration: none;
+    color: #4A5D75;
+    font-weight: bold;
+    padding: 0px 3px;
+}
+
+p > a:hover, li > a:hover {
+    background-color: #4A5D75;
+    color: #ffffff;
+}
+
+footer > p {
+    text-align: center;
+    background-color: #000000;
+    color: #3C7ACA;
+}
+
+footer > p > a {
+    color: #1F7CF5;
+    text-decoration: underline;
+
+}
