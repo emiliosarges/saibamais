@@ -56,18 +56,24 @@ header p {
 nav {
     padding: 20px;
     text-align: left;
+
 }
 
 nav > a {
-    color: var(--cor0);
+    background-color: #0000006c;
+    color: var(--cor6);
     padding: 10px;
     text-decoration: none;
     font-weight: bold;
     transition-duration: 1s;
+    border-radius: 3px;
+
 }
 
 nav a:hover {
     background-color: #4A5D75;
+    color: #ffffff;
+    text-decoration: none;
 }
 
 main {
@@ -114,8 +120,9 @@ p > a, li > a {
 }
 
 p > a:hover, li > a:hover {
-    background-color: #4A5D75;
+    background-color: #4a5d759f;
     color: #ffffff;
+    text-decoration: underline;
 }
 
 footer > p {
