@@ -31,9 +31,9 @@ header {
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
-
-
 }
+
+
 
 header > h1 {
     padding-bottom: 30px;
@@ -41,8 +41,11 @@ header > h1 {
     text-shadow: 3px 3px 6px rgb(0, 0, 0);
     font-size: 3em;
     color: var(--cor6);
-    
+}
 
+header >  p {
+    color: rgba(255, 255, 255, 0.473);
+    font-family: monospace;
 }
 
 header p {
