@@ -125,6 +125,11 @@ p > a:hover, li > a:hover {
     text-decoration: underline;
 }
 
+footer {
+    margin-top: 20px;
+    
+}
+
 footer > p {
     text-align: center;
     background-color: #000000;
