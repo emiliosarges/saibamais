@@ -1,0 +1,1 @@
+alert(Obrigado pela visita!)
