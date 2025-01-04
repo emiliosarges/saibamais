@@ -1,1 +1,1 @@
-alert(Obrigado pela visita!)
+alert('Obrigado pela visita!')
