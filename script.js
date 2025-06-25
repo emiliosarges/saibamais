@@ -1,1 +1,0 @@
-alert('Obrigado pela visita!')
